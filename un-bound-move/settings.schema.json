@@ -1,0 +1,18 @@
+{
+  "title": "UN-BOUND settings",
+  "env": "settings.env",
+  "fields": [
+    {"key": "CHROMIUM_URL", "label": "Page to open", "kind": "text",
+     "help": "Defaults to https://un-bound.ai.studio. The URL key in the on-screen keyboard can navigate elsewhere."},
+    {"key": "CHROMIUM_RENDER_TIMEOUT", "label": "Render timeout (seconds)", "kind": "text",
+     "help": "How long to wait for a page before giving up. Default 120."},
+    {"key": "CHROMIUM_WAIT_SELECTOR", "label": "Ready selector (advanced)", "kind": "text",
+     "help": "CSS selector that marks the page as rendered. Leave empty to use the UN-BOUND default."},
+    {"key": "CHROMIUM_TOUCH_FLIP", "label": "Touch flip (advanced)", "kind": "select",
+     "options": ["", "x", "y", "xy"],
+     "help": "Set only if taps land mirrored on your unit."}
+  ],
+  "presets": [
+    {"name": "UN-BOUND", "values": {"CHROMIUM_URL": "https://un-bound.ai.studio"}}
+  ]
+}

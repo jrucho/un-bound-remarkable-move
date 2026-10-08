@@ -1,0 +1,15 @@
+.DS_Store
+__pycache__/
+*.pyc
+.lima/
+.work/
+un-bound-engine/bundle/
+un-bound-viewer/libqsgepaper.so
+dist/
+profile/
+profile-*/
+out/
+*.log
+*.pem
+*.key
+*.env.local

@@ -1,0 +1,10 @@
+{
+  "id": "un-bound",
+  "name": "UN-BOUND",
+  "version": "0.3.0",
+  "description": "UN-BOUND in a Chromium-based browser adapted for the reMarkable Paper Pro Move.",
+  "application": "appload-launch.sh",
+  "qtfb": false,
+  "disablesWindowedMode": true,
+  "aspectRatio": "move"
+}
